@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.lmax:disruptor:3.4.2'
+    testImplementation 'org.testng:testng:6.14.3'
+}
+
+mainClassName = 'lmaxapp.App'
+
+test {
+    useTestNG()
+}
