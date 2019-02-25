@@ -1,5 +1,4 @@
 plugins {
-    id 'idea'
     id 'java'
     id 'application'
 }
@@ -10,11 +9,10 @@ repositories {
 
 dependencies {
     implementation 'com.lmax:disruptor:3.4.2'
-    implementation 'org.twitter4j:twitter4j-stream:4.0.7'
     testImplementation 'org.testng:testng:6.14.3'
 }
 
-mainClassName = 'lmaxapp.App'
+mainClassName = 'lmaxsample.App'
 
 test {
     useTestNG()

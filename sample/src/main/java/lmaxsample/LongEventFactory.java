@@ -1,4 +1,4 @@
-package lmaxapp;
+package lmaxsample;
 
 import com.lmax.disruptor.EventFactory;
 

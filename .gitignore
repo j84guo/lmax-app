@@ -2,8 +2,13 @@
 .gradle
 
 # Ignore Gradle build output directory
-build
+build/
 
 # Ignore IDE files
 .idea/
 *.iml
+*.ipr
+*.iws
+
+# Ignore Twitter credentials
+twitter4j.properties
